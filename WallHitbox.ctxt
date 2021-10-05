@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WallHitbox
+comment0.text=\r\n\ stores\ and\ checks\ Rectangle\ objects\ with\ borders\r\n\ fully\ static\ (private\ constructor)\r\n\ add\ walls\ where\ objects\ cannot\ pass\ through\ and\ a\ border\ where\ objects\ cannot\ escape\ through\r\n\ border\ \=\ new\ Rectangle(-1,\ -1,\ 1000,\ 1000)\ is\ the\ default\ border\r\n
+comment1.params=
+comment1.target=WallHitbox()
+comment1.text=\r\n\ private\ constructor\ so\ objects\ cannot\ be\ created\ (why\ would\ somebody\ make\ an\ object\ of\ this,\ this\ is\ just\ like\ Math\ class)\r\n
+comment2.params=x\ y\ length\ width
+comment2.target=void\ wall(int,\ int,\ int,\ int)
+comment2.text=\r\n\ adds\ invisible\ rectangles\ (walls)\ to\ the\ stage\r\n\ @param\:\ int\ x\ for\ xPoint,\ int\ y\ for\ yPoint,\ int\ length\ for\ width,\ int\ width\ for\ height\ (confusing\ for\ people\ who\ want\ to\ try\ to\ hack\ my\ code)\r\n
+comment3.params=i
+comment3.target=void\ walls(java.awt.Image)
+comment3.text=\r\n\ adds\ a\ border\ to\ the\ stage\r\n\ @pre\:\ image\ must\ encompass\ entire\ stage\r\n\ @param\:\ Image\ i\ to\ get\ all\ necessary\ information\r\n
+comment4.params=r\ direction\ speed
+comment4.target=boolean\ check(java.awt.Rectangle,\ java.lang.String,\ int)
+comment4.text=\r\n\ modifies\ the\ rectangle\ for\ checking\r\n\ @pre\:\ parameter\ direction\ must\ be\ up,\ down,\ left,\ or\ right\r\n\ @param\:\ Rectangle\ r\ for\ checking\ and\ modifying,\ String\ direction\ for\ modifying,\ int\ speed\ for\ modifying\ and\ checking\r\n\ @return\:\ boolean\ true\ if\ it\ is\ in\ a\ movable\ zone,\ false\ otherwise\r\n
+comment5.params=r
+comment5.target=boolean\ check(java.awt.Rectangle)
+comment5.text=\r\n\ checks\ the\ rectangle\ for\ intersections\r\n\ @param\:\ Rectangle\ r\ for\ checking\r\n\ @return\:\ boolean\ true\ if\ it\ is\ in\ a\ movable\ zone,\ false\ otherwise\r\n
+comment6.params=g
+comment6.target=void\ paint(java.awt.Graphics)
+comment6.text=\r\n\ paints\ the\ border\ outline\ in\ black\r\n\ @param\:\ Graphics\ g\ for\ it\ to\ actually\ work\r\n\ @post\:\ the\ border\ is\ painted\ black\ on\ the\ thing\ (JPanel,\ JComponent,\ any\ J\ thing\ the\ has\ paint)\r\n
+numComments=7

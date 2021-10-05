@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FireMonster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FireMonster\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ x\ y
+comment1.target=FireMonster(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ passes\ the\ necessary\ variables\ to\ Monster\r\n\ @pre\:\ files\ are\ in\ right\ places\r\n
+comment2.params=
+comment2.target=java.lang.String\ attackMessage()
+comment2.text=\r\n\ returns\ the\ element\ of\ the\ Monster\r\n\ @return\:\ String\ element\ of\ the\ Monster\r\n
+comment3.params=m
+comment3.target=boolean\ attackAdvantage(Monster)
+comment3.text=\r\n\ checks\ if\ the\ Monster\ has\ a\ type\ advantage\ against\ the\ other\ Monster\r\n\ @param\:\ Monster\ m\ to\ compare\r\n\ @return\:\ boolean,\ true\ if\ te\ Monster\ has\ a\ type\ advantage,\ false\ otherwise\r\n
+comment4.params=m
+comment4.target=boolean\ attackDisadvantage(Monster)
+comment4.text=\r\n\ checks\ if\ the\ Monster\ has\ a\ type\ disadvantage\ against\ the\ other\ Monster\r\n\ @param\:\ Monster\ m\ to\ compare\r\n\ @return\:\ boolean,\ true\ if\ te\ Monster\ has\ a\ type\ disadvantage,\ false\ otherwise\r\n
+numComments=5
