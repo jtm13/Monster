@@ -9,6 +9,8 @@ PURPOSE OF PROJECT: Make a Game of Monster (Pokemon crossed with Tank Trouble)
 VERSION or DATE: (6/10/21)
 AUTHORS: jtm13
 USER INSTRUCTIONS:
-use an IDE like eclipse or bluej to handle dependencies (please).
+can use scripts I made (run or compile) or:
+    javac -d bin/ -cp bin/ *.java 
+    java -cp bin/ Game
 https://youtu.be/qEFsj07kaoY is where it is tested.
 Uploaded the wrong version of the game. This one is better.
